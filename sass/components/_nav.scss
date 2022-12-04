@@ -1,4 +1,8 @@
 .nav {
+  @extend %list;
+} /*не убирал в html*/
+
+.nav {
   display: flex;
   gap: 50px;
 }

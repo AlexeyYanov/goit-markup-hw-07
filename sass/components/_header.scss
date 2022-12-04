@@ -7,8 +7,9 @@
 .header-container {
   display: flex;
   align-items: center;
-
+/*здесь плейсхолдер, но я не удалял его из html*/
 .address-header {
+  @extend %list;
   margin-left: auto;
   display: flex;
   align-items: center;
