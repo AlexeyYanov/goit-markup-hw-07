@@ -1,0 +1,16 @@
+/*базовые стили*/
+:root {
+  --title-text-color: #212121;
+  --maket-color: #ffffff;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --work-bg: rgba(47, 48, 58, 0.8);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--maket-color);
+  color: var(--primary-text-color);
+}
